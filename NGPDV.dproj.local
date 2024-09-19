@@ -3,11 +3,29 @@
 	<Transactions>
     <Transaction>2024/09/13 15:02:30.000.319,=C:\Users\NOT-SUP-LEANDRO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/09/18 08:22:01.000.294,=C:\Users\NOT-SUP-LEANDRO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/09/18 08:22:29.000.656,C:\Users\NOT-SUP-LEANDRO\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Leandro\Projeto PDV\src\view\ngpdv.view.principal.dfm</Transaction>
     <Transaction>2024/09/18 08:22:29.000.656,C:\Users\NOT-SUP-LEANDRO\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Leandro\Projeto PDV\src\view\ngpdv.view.principal.pas</Transaction>
+    <Transaction>2024/09/18 08:22:29.000.656,C:\Users\NOT-SUP-LEANDRO\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Leandro\Projeto PDV\src\view\ngpdv.view.principal.dfm</Transaction>
     <Transaction>2024/09/18 08:22:57.000.999,C:\Users\NOT-SUP-LEANDRO\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Leandro\Projeto PDV\NGPDV.dproj</Transaction>
     <Transaction>2024/09/18 14:42:02.000.861,=C:\Leandro\Delphi Projetos\PDV\Unit1.pas</Transaction>
-    <Transaction>2024/09/18 14:42:37.000.824,C:\Leandro\Delphi Projetos\PDV\Unit1.dfm=C:\Leandro\Delphi Projetos\PDV\src\view\ngpdv.view.login.dfm</Transaction>
     <Transaction>2024/09/18 14:42:37.000.824,C:\Leandro\Delphi Projetos\PDV\Unit1.pas=C:\Leandro\Delphi Projetos\PDV\src\view\ngpdv.view.login.pas</Transaction>
+    <Transaction>2024/09/18 14:42:37.000.824,C:\Leandro\Delphi Projetos\PDV\Unit1.dfm=C:\Leandro\Delphi Projetos\PDV\src\view\ngpdv.view.login.dfm</Transaction>
+    <Transaction>2024/09/18 16:59:45.000.072,=C:\Leandro\Delphi Projetos\PDV\Unit1.pas</Transaction>
+    <Transaction>2024/09/18 17:01:17.000.334,C:\Leandro\Delphi Projetos\PDV\src\model\ngpdv.model.dados.pas=C:\Leandro\Delphi Projetos\PDV\Unit1.pas</Transaction>
+    <Transaction>2024/09/18 17:01:17.000.334,C:\Leandro\Delphi Projetos\PDV\src\model\ngpdv.model.dados.dfm=C:\Leandro\Delphi Projetos\PDV\Unit1.dfm</Transaction>
+    <Transaction>2024/09/19 09:53:41.347,C:\Leandro\Delphi Projetos\PDV\src\model\ngpdv.model.dados.pas=</Transaction>
+    <Transaction>2024/09/19 09:53:57.097,=C:\Leandro\Delphi Projetos\PDV\Unit1.pas</Transaction>
+    <Transaction>2024/09/19 09:55:12.353,C:\Leandro\Delphi Projetos\PDV\src\model\ngpdv.model.dados.pas=C:\Leandro\Delphi Projetos\PDV\Unit1.pas</Transaction>
+    <Transaction>2024/09/19 09:55:12.353,C:\Leandro\Delphi Projetos\PDV\src\model\ngpdv.model.dados.dfm=C:\Leandro\Delphi Projetos\PDV\Unit1.dfm</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\model"/>
+    <File Path="src\model\ngpdv.model.dados.pas"/>
+    <File Path="src\model\ngpdv.model.dados.dfm"/>
+    <File Path="src\view"/>
+    <File Path="src\view\ngpdv.view.login.pas"/>
+    <File Path="src\view\ngpdv.view.login.dfm"/>
+    <File Path="src\view\ngpdv.view.principal.pas"/>
+    <File Path="src\view\ngpdv.view.principal.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>

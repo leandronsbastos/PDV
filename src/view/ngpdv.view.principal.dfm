@@ -3,7 +3,7 @@ object uPrincipal: TuPrincipal
   Top = 0
   Caption = 'Leandro Nogueira - PDV'
   ClientHeight = 730
-  ClientWidth = 1124
+  ClientWidth = 1186
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,7 +17,7 @@ object uPrincipal: TuPrincipal
   object pnlMaster: TPanel
     Left = 0
     Top = 0
-    Width = 1124
+    Width = 1186
     Height = 730
     Align = alClient
     BevelOuter = bvNone
@@ -25,7 +25,7 @@ object uPrincipal: TuPrincipal
     object pnlContainer: TPanel
       Left = 0
       Top = 0
-      Width = 1124
+      Width = 1186
       Height = 730
       Align = alClient
       BevelOuter = bvNone
@@ -35,7 +35,7 @@ object uPrincipal: TuPrincipal
       object pnlTitulo: TPanel
         Left = 0
         Top = 0
-        Width = 1124
+        Width = 1186
         Height = 60
         Align = alTop
         BevelOuter = bvNone
@@ -55,7 +55,7 @@ object uPrincipal: TuPrincipal
       object pnlbotoes: TPanel
         Left = 0
         Top = 630
-        Width = 1124
+        Width = 1186
         Height = 100
         Align = alBottom
         BevelOuter = bvNone
@@ -64,7 +64,7 @@ object uPrincipal: TuPrincipal
           AlignWithMargins = True
           Left = 0
           Top = 0
-          Width = 185
+          Width = 195
           Height = 100
           Margins.Left = 0
           Margins.Top = 0
@@ -79,7 +79,7 @@ object uPrincipal: TuPrincipal
           object shpCancelarOperacao: TShape
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Brush.Color = clSkyBlue
@@ -93,7 +93,7 @@ object uPrincipal: TuPrincipal
           object btnCancelarOperacao: TSpeedButton
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Caption = 'Cancelar Opera'#231#227'o'
@@ -106,9 +106,9 @@ object uPrincipal: TuPrincipal
         end
         object pnlConsultarPreco: TPanel
           AlignWithMargins = True
-          Left = 188
+          Left = 198
           Top = 0
-          Width = 185
+          Width = 195
           Height = 100
           Margins.Left = 0
           Margins.Top = 0
@@ -123,7 +123,7 @@ object uPrincipal: TuPrincipal
           object shpConsultarPreco: TShape
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Brush.Color = clSkyBlue
@@ -137,7 +137,7 @@ object uPrincipal: TuPrincipal
           object btnConsultarPreco: TSpeedButton
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Caption = 'Consultar Pre'#231'o'
@@ -150,9 +150,9 @@ object uPrincipal: TuPrincipal
         end
         object pnlAbrirCaixa: TPanel
           AlignWithMargins = True
-          Left = 376
+          Left = 396
           Top = 0
-          Width = 185
+          Width = 195
           Height = 100
           Margins.Left = 0
           Margins.Top = 0
@@ -167,7 +167,7 @@ object uPrincipal: TuPrincipal
           object shpAbrirCaixa: TShape
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Brush.Color = clSkyBlue
@@ -181,7 +181,7 @@ object uPrincipal: TuPrincipal
           object btnAbrirCaixa: TSpeedButton
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Caption = 'Abrir Caixa'
@@ -200,9 +200,9 @@ object uPrincipal: TuPrincipal
         end
         object pnlCancelarVenda: TPanel
           AlignWithMargins = True
-          Left = 564
+          Left = 594
           Top = 0
-          Width = 185
+          Width = 195
           Height = 100
           Margins.Left = 0
           Margins.Top = 0
@@ -217,7 +217,7 @@ object uPrincipal: TuPrincipal
           object shpCancelarVenda: TShape
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Brush.Color = clSkyBlue
@@ -231,7 +231,7 @@ object uPrincipal: TuPrincipal
           object btnCancelarVenda: TSpeedButton
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Caption = 'Cancelar Venda'
@@ -244,9 +244,9 @@ object uPrincipal: TuPrincipal
         end
         object pnlCancelarIten: TPanel
           AlignWithMargins = True
-          Left = 752
+          Left = 792
           Top = 0
-          Width = 185
+          Width = 195
           Height = 100
           Margins.Left = 0
           Margins.Top = 0
@@ -261,7 +261,7 @@ object uPrincipal: TuPrincipal
           object shpCancelarItem: TShape
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Brush.Color = clSkyBlue
@@ -275,7 +275,7 @@ object uPrincipal: TuPrincipal
           object btnCancelarItem: TSpeedButton
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Caption = 'Cancelar Item'
@@ -288,9 +288,9 @@ object uPrincipal: TuPrincipal
         end
         object pnlMaisFuncoes: TPanel
           AlignWithMargins = True
-          Left = 940
+          Left = 990
           Top = 0
-          Width = 185
+          Width = 195
           Height = 100
           Margins.Left = 0
           Margins.Top = 0
@@ -305,7 +305,7 @@ object uPrincipal: TuPrincipal
           object shpMaisFuncoes: TShape
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Brush.Color = clSkyBlue
@@ -319,7 +319,7 @@ object uPrincipal: TuPrincipal
           object btnMaisFuncoes: TSpeedButton
             Left = 5
             Top = 10
-            Width = 175
+            Width = 185
             Height = 80
             Align = alClient
             Caption = 'Mais Fun'#231#245'es'
@@ -334,14 +334,14 @@ object uPrincipal: TuPrincipal
       object pnlMain: TPanel
         Left = 0
         Top = 60
-        Width = 1124
+        Width = 1186
         Height = 570
         Align = alClient
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 2
         object pnlOperacoes: TPanel
-          Left = 724
+          Left = 786
           Top = 0
           Width = 400
           Height = 570
@@ -962,7 +962,7 @@ object uPrincipal: TuPrincipal
         object pnlGrid: TPanel
           Left = 0
           Top = 0
-          Width = 724
+          Width = 786
           Height = 570
           Align = alClient
           BevelOuter = bvNone
@@ -976,19 +976,115 @@ object uPrincipal: TuPrincipal
           object dbgrdOperacoes: TDBGrid
             Left = 5
             Top = 5
-            Width = 714
+            Width = 776
             Height = 560
             Align = alClient
             BorderStyle = bsNone
+            DataSource = dsItens
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            Options = [dgTitles, dgRowLines, dgTabs, dgRowSelect, dgTitleHotTrack]
+            ParentFont = False
             TabOrder = 0
             TitleFont.Charset = DEFAULT_CHARSET
             TitleFont.Color = clWindowText
             TitleFont.Height = -12
             TitleFont.Name = 'Segoe UI'
             TitleFont.Style = []
+            Columns = <
+              item
+                Expanded = False
+                FieldName = 'codigo'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -16
+                Font.Name = 'Segoe UI'
+                Font.Style = []
+                Title.Caption = 'Codigo'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -13
+                Title.Font.Name = 'Segoe UI'
+                Title.Font.Style = []
+                Width = 90
+                Visible = True
+              end
+              item
+                Alignment = taCenter
+                Expanded = False
+                FieldName = 'item'
+                Title.Alignment = taCenter
+                Title.Caption = 'Item'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -13
+                Title.Font.Name = 'Segoe UI'
+                Title.Font.Style = []
+                Width = 50
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'descricao'
+                Title.Caption = 'Descri'#231#227'o do Produto'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -13
+                Title.Font.Name = 'Segoe UI'
+                Title.Font.Style = []
+                Width = 350
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'valorunitario'
+                Title.Alignment = taRightJustify
+                Title.Caption = 'Valor Unit'#225'rio'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -13
+                Title.Font.Name = 'Segoe UI'
+                Title.Font.Style = []
+                Width = 90
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'quantidade'
+                Title.Alignment = taRightJustify
+                Title.Caption = 'Quantidade'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -13
+                Title.Font.Name = 'Segoe UI'
+                Title.Font.Style = []
+                Width = 90
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'subtotal'
+                Title.Alignment = taRightJustify
+                Title.Caption = 'Sub-Total'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -13
+                Title.Font.Name = 'Segoe UI'
+                Title.Font.Style = []
+                Width = 90
+                Visible = True
+              end>
           end
         end
       end
     end
+  end
+  object dsItens: TDataSource
+    DataSet = dmDados.cdsItens
+    Left = 88
+    Top = 164
   end
 end

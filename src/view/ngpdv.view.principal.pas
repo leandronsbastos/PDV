@@ -62,6 +62,7 @@ type
     pnlImgProduto: TPanel;
     imgProdutos: TImage;
     pnlMaster: TPanel;
+    dsItens: TDataSource;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
@@ -77,6 +78,9 @@ var
   uPrincipal: TuPrincipal;
 
 implementation
+
+uses
+  ngpdv.model.dados;
 
 procedure TuPrincipal.FormCreate(Sender: TObject);
 begin
