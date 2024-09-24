@@ -5,7 +5,8 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons, Data.DB,
-  Vcl.Grids, Vcl.DBGrids, Vcl.StdCtrls, Vcl.Imaging.jpeg, ngpdv.view.login;
+  Vcl.Grids, Vcl.DBGrids, Vcl.StdCtrls, Vcl.Imaging.jpeg, ngpdv.view.login,
+  Vcl.WinXCtrls;
 
 type
   TuPrincipal = class(TForm)
@@ -63,12 +64,31 @@ type
     imgProdutos: TImage;
     pnlMaster: TPanel;
     dsItens: TDataSource;
+    SplitViewFuncoes: TSplitView;
+    pnlMenuMaisFuncoes: TPanel;
+    pnlInformarCPF: TPanel;
+    shpInformarCPF: TShape;
+    pnlMultiplicar: TPanel;
+    shpMultiplicar: TShape;
+    pnlFecharVenda: TPanel;
+    shpFecharVenda: TShape;
+    pnlNovaVenda: TPanel;
+    shpNovaVenda: TShape;
+    pnlSupSang: TPanel;
+    shpSupSang: TShape;
+    pnlDescontoItem: TPanel;
+    shpDescontoItem: TShape;
+    SplitViewPagamentos: TSplitView;
+    pnlPag: TPanel;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure btnMaisFuncoesClick(Sender: TObject);
   private
     FLogin: TuLogin;
     procedure MontarBotoes;
+    procedure SplitViewAction(Value: TSplitView);
 
   public
     { Public declarations }
@@ -80,11 +100,30 @@ var
 implementation
 
 uses
-  ngpdv.model.dados;
+  ngpdv.model.dados, ngpdv.view.pagamentos;
 
 procedure TuPrincipal.FormCreate(Sender: TObject);
 begin
   MontarBotoes;
+end;
+
+procedure TuPrincipal.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  case Key of
+    VK_ESCAPE: ShowMessage('Cancelar Operação');
+    VK_F4: ShowMessage('Consultar Preço');
+    VK_F2: ShowMessage('Abrir Caixa');
+    VK_F6: ShowMessage('Cancelar Venda');
+    VK_F5: ShowMessage('Cancelar Item');
+    VK_F12: btnMaisFuncoesClick(Sender);
+    VK_F7: ShowMessage('Fechar Venda');
+  end;
+end;
+
+procedure TuPrincipal.btnMaisFuncoesClick(Sender: TObject);
+begin
+    SplitViewAction(SplitViewFuncoes);
 end;
 
 procedure TuPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);
@@ -107,6 +146,11 @@ begin
   btnCancelarVenda.Caption := 'Cancelar Venda ' + ''#13'' + ' (F6)';
   btnCancelarItem.Caption := 'Cancelar Item ' + ''#13'' + ' (F5)';
   btnMaisFuncoes.Caption := 'Mais FunÇões ' + ''#13'' + ' (F12)';
+end;
+
+procedure TuPrincipal.SplitViewAction(Value: TSplitView);
+begin
+   Value.Opened := not Value.Opened;
 end;
 
 {$R *.dfm}

@@ -10,8 +10,10 @@ object uPrincipal: TuPrincipal
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  KeyPreview = True
   OnClose = FormClose
   OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
   OnShow = FormShow
   TextHeight = 15
   object pnlMaster: TPanel
@@ -32,6 +34,9 @@ object uPrincipal: TuPrincipal
       BiDiMode = bdRightToLeftNoAlign
       ParentBiDiMode = False
       TabOrder = 0
+      DesignSize = (
+        1186
+        730)
       object pnlTitulo: TPanel
         Left = 0
         Top = 0
@@ -324,6 +329,7 @@ object uPrincipal: TuPrincipal
             Align = alClient
             Caption = 'Mais Fun'#231#245'es'
             Flat = True
+            OnClick = btnMaisFuncoesClick
             ExplicitLeft = 40
             ExplicitTop = 40
             ExplicitWidth = 23
@@ -998,11 +1004,6 @@ object uPrincipal: TuPrincipal
               item
                 Expanded = False
                 FieldName = 'codigo'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -16
-                Font.Name = 'Segoe UI'
-                Font.Style = []
                 Title.Caption = 'Codigo'
                 Title.Font.Charset = DEFAULT_CHARSET
                 Title.Font.Color = clWindowText
@@ -1078,6 +1079,202 @@ object uPrincipal: TuPrincipal
                 Visible = True
               end>
           end
+        end
+      end
+      object SplitViewFuncoes: TSplitView
+        Left = 1186
+        Top = 60
+        Width = 0
+        Height = 570
+        AnimationDelay = 0
+        DisplayMode = svmOverlay
+        Opened = False
+        OpenedWidth = 200
+        Placement = svpRight
+        TabOrder = 3
+        UseAnimation = False
+        object pnlMenuMaisFuncoes: TPanel
+          Left = 0
+          Top = 0
+          Width = 0
+          Height = 570
+          Align = alClient
+          BevelOuter = bvNone
+          Color = clSkyBlue
+          ParentBackground = False
+          TabOrder = 0
+          object pnlInformarCPF: TPanel
+            Left = 0
+            Top = 0
+            Width = 0
+            Height = 41
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Informar CPF (F9)'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+            object shpInformarCPF: TShape
+              Left = 0
+              Top = 40
+              Width = 0
+              Height = 1
+              Align = alBottom
+              ExplicitTop = -24
+              ExplicitWidth = 200
+            end
+          end
+          object pnlMultiplicar: TPanel
+            Left = 0
+            Top = 123
+            Width = 0
+            Height = 41
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Multiplicar (*)'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+            object shpMultiplicar: TShape
+              Left = 0
+              Top = 40
+              Width = 0
+              Height = 1
+              Align = alBottom
+              ExplicitTop = -24
+              ExplicitWidth = 200
+            end
+          end
+          object pnlFecharVenda: TPanel
+            Left = 0
+            Top = 82
+            Width = 0
+            Height = 41
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Fechar Venda (F7)'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 2
+            object shpFecharVenda: TShape
+              Left = 0
+              Top = 40
+              Width = 0
+              Height = 1
+              Align = alBottom
+              ExplicitTop = -24
+              ExplicitWidth = 200
+            end
+          end
+          object pnlNovaVenda: TPanel
+            Left = 0
+            Top = 41
+            Width = 0
+            Height = 41
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Nova Venda (F3)'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 3
+            object shpNovaVenda: TShape
+              Left = 0
+              Top = 40
+              Width = 0
+              Height = 1
+              Align = alBottom
+              ExplicitTop = -24
+              ExplicitWidth = 200
+            end
+          end
+          object pnlSupSang: TPanel
+            Left = 0
+            Top = 205
+            Width = 0
+            Height = 41
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Sup / San (CTRL + F4)'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 4
+            object shpSupSang: TShape
+              Left = 0
+              Top = 40
+              Width = 0
+              Height = 1
+              Align = alBottom
+              ExplicitTop = -24
+              ExplicitWidth = 200
+            end
+          end
+          object pnlDescontoItem: TPanel
+            Left = 0
+            Top = 164
+            Width = 0
+            Height = 41
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Desconto Item (F11)'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 5
+            object shpDescontoItem: TShape
+              Left = 0
+              Top = 40
+              Width = 0
+              Height = 1
+              Align = alBottom
+              ExplicitTop = -24
+              ExplicitWidth = 200
+            end
+          end
+        end
+      end
+      object SplitViewPagamentos: TSplitView
+        Left = 346
+        Top = 60
+        Width = 840
+        Height = 570
+        DisplayMode = svmOverlay
+        OpenedWidth = 840
+        Placement = svpRight
+        TabOrder = 5
+        object pnlPag: TPanel
+          Left = 0
+          Top = 0
+          Width = 840
+          Height = 570
+          Align = alClient
+          TabOrder = 0
+          ExplicitLeft = 304
+          ExplicitTop = 232
+          ExplicitWidth = 185
+          ExplicitHeight = 41
         end
       end
     end
