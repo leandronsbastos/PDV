@@ -109,6 +109,8 @@ end;
 
 procedure TuPrincipal.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
+var
+    lPagamentos : TuPagamentos;
 begin
   case Key of
     VK_ESCAPE: ShowMessage('Cancelar Operação');
@@ -117,7 +119,13 @@ begin
     VK_F6: ShowMessage('Cancelar Venda');
     VK_F5: ShowMessage('Cancelar Item');
     VK_F12: btnMaisFuncoesClick(Sender);
-    VK_F7: ShowMessage('Fechar Venda');
+    VK_F7:
+    begin
+      lPagamentos := TuPagamentos.Create(nil);
+      lPagamentos .Parent := pnlPag;
+      lPagamentos.Show;
+      SplitViewAction(SplitViewPagamentos);
+    end;
   end;
 end;
 

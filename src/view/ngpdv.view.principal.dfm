@@ -1256,18 +1256,21 @@ object uPrincipal: TuPrincipal
         end
       end
       object SplitViewPagamentos: TSplitView
-        Left = 346
+        Left = 1186
         Top = 60
-        Width = 840
+        Width = 0
         Height = 570
+        AnimationDelay = 0
         DisplayMode = svmOverlay
+        Opened = False
         OpenedWidth = 840
         Placement = svpRight
         TabOrder = 5
+        UseAnimation = False
         object pnlPag: TPanel
           Left = 0
           Top = 0
-          Width = 840
+          Width = 0
           Height = 570
           Align = alClient
           TabOrder = 0
