@@ -326,7 +326,6 @@ body:
     id: descricao
     attributes:
       label: Qual o problema que está ocorrendo?
-      value: "Descreva detalhadamente o problema"
     validations:
       required: true    
   - type: dropdown
