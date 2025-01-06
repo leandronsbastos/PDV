@@ -12,8 +12,8 @@ body:
   - type: dropdown
     id: cliente
     attributes:
-      label: Cliente:
-      description: Informe o cliente o qual está solicitação a correção:
+      label: Cliente
+      description: Informe o cliente o qual está solicitação a correção
       options:
           73550193 - WENDELL PEREIRA MATOS
           73550033 - Cliente Padrão Contabilidade
