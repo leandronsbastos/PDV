@@ -3,7 +3,6 @@ description: Arquivo de Configuração de Chamados.
 title: "[Chamado de Erro]: "
 labels: ["Erro", "Análise"]
 projects: ["octo-org/1", "octo-org/44"]
-assignees:
 body:
   - type: markdown
     attributes:
