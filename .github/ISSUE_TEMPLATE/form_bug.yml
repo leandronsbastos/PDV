@@ -4,10 +4,6 @@ title: "[Chamado de Erro]: "
 labels: ["Erro", "Análise"]
 projects: ["octo-org/1", "octo-org/44"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        A Rensoftware agradeçe seu empenho em contribuir para melhoria de nossos produtos!
   - type: dropdown
     id: cliente
     attributes:
